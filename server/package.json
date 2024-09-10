@@ -6,7 +6,8 @@
     "start": "node ./dist/http/server.js",
     "dev": "tsx watch --env-file .env ./src/http/server.ts",
     "build": "tsup src",
-    "seed": "tsx --env-file .env ./src/db/seed.ts"
+    "seed": "tsx --env-file .env ./src/db/seed.ts",
+    "migrate": "drizzle-kit push"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
