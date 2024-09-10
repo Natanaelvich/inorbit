@@ -8,19 +8,23 @@
     "build": "tsup src",
     "seed": "tsx --env-file .env ./src/db/seed.ts"
   },
-  "dependencies": {
-    "@faker-js/faker": "^8.0.2",
-    "@fastify/cors": "^9.0.1",
-    "dayjs": "^1.11.9",
-    "drizzle-orm": "^0.28.5",
-    "fastify": "^4.28.1",
-    "fastify-type-provider-zod": "^2.0.0",
-    "pg": "^8.11.3",
-    "postgres": "^3.4.4",
-    "zod": "^3.23.8"
-  },
   "devDependencies": {
-    "@types/node": "^22.5.4",
-    "tsx": "^4.19.0"
+    "@biomejs/biome": "1.8.3",
+    "@faker-js/faker": "8.4.1",
+    "@types/node": "22.1.0",
+    "drizzle-kit": "0.24.0",
+    "tsup": "8.2.4",
+    "tsx": "4.17.0",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "9.0.1",
+    "@paralleldrive/cuid2": "2.2.2",
+    "dayjs": "1.11.12",
+    "drizzle-orm": "0.33.0",
+    "fastify": "4.28.1",
+    "fastify-type-provider-zod": "2.0.0",
+    "postgres": "3.4.4",
+    "zod": "3.23.8"
   }
 }
