@@ -11,7 +11,11 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.11"
+    "next": "14.2.11",
+    "@radix-ui/react-dialog": "1.1.1",
+    "@radix-ui/react-progress": "1.1.0",
+    "@radix-ui/react-radio-group": "1.2.0",
+    "sonner": "1.5.0"
   },
   "devDependencies": {
     "typescript": "^5",
